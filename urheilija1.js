@@ -20,7 +20,7 @@ class Urheilija extends Henkilo {
         console.log("luotu", this);
     }
 
-    set uusiEtunimi(uudsiEtunimi) {
+    set uudetEtunimet(uudetEtunimetEtunimi) {
         this._etunimet = uudetEtunimet;
     }
     set uusiSukunimi(uusiSukunimi) {
