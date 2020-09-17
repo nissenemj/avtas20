@@ -57,3 +57,16 @@ class Urheilija extends Henkilo {
         this._saavutukset = uudetSaavutukset;
     }
 }
+
+var year = new Date("1960");
+
+var isometsa = new Urheilija(
+"Jari Olavi",
+"Isometsa",
+"karpaasi",
+year,
+"https://img.ilcdn.fi/S4MaUNE7g9XEUgLMXJs23hPzPV4=/full-fit-in/612x0/img-s3.ilcdn.fi/6a1682e75c9d231305e0b35eeff98b4669ac80f8e4281ebeaabdebf19e56c1aa.jpg",
+70,
+"hiihto",
+"olympiapronssi"
+);
